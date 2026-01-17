@@ -1,0 +1,43 @@
+# --- 3. Virtual Environments ---
+# (Assumes you name your env 'venv', 'env', or '.venv')
+venv/
+env/
+.venv/
+.env
+
+# --- 4. Jupyter Notebooks ---
+# The autosave folders that clutter your repo
+.ipynb_checkpoints
+# Optional: Ignore all outputs (if you use tools that strip output)
+# *.ipynb_wasm
+
+# --- 5. Data Science & Big Files ---
+# Block all standard data formats to avoid "File too large" errors
+*.csv
+*.tsv
+*.json
+*.xml
+*.parquet
+*.sql
+*.xlsx
+*.xls
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# --- 6. ML Models & Weights ---
+# Never push trained models (they are huge binary blobs)
+*.pkl
+*.h5
+*.hdf5
+*.pth
+*.pt
+*.onnx
+*.pb
+models/
+model_checkpoints/
+
+# --- 7. IDE & Editors ---
+# VS Code
+.vscode/
